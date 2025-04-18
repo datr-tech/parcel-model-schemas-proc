@@ -5,12 +5,12 @@
   "description": "Parcel model schemas for proc",
   "keywords": [
     "datr.tech",
-		"proc",
-		"model",
-		"mongoose",
+    "proc",
+    "model",
+    "mongoose",
     "parcel",
-		"schemas",
-		"typescript"
+    "schemas",
+    "typescript"
   ],
   "homepage": "https://github.com/datr.tech/parcel-model-schemas-proc",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npx webpack --mode production",
+    "build": "npx tsc",
     "prechangelog": "git add ./package.json",
     "changelog": "npx auto-changelog",
     "postchangelog": "npm-run-all changelog:add changelog:commit",
@@ -61,7 +61,6 @@
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.10.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.13",
     "auto-changelog": "^2.5.0",

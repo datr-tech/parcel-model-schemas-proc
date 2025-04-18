@@ -1,4 +1,7 @@
-import { commonSchemaFieldGroupFooter, commonSchemaFieldDefObjectIdRequired } from '@freight/common-schema-fields';
+import {
+  commonSchemaFieldDefObjectIdRequired,
+  commonSchemaFieldGroupFooter,
+} from '@datr.tech/leith-common-schema-fields';
 
 export const threadModelSchema = {
   _id: {
