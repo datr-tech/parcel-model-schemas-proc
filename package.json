@@ -52,7 +52,7 @@
     "test": "npm run test:unit"
   },
   "dependencies": {
-    "@datr.tech/leith-common-schema-fields": "^0.3.1",
+    "@datr.tech/parcel-model-schemas-common-fields": "^0.3.1",
     "@types/node": "^22.7.6"
   },
   "devDependencies": {

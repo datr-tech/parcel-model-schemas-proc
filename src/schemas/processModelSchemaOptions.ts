@@ -1,4 +1,4 @@
-import { commonSchemaOptions } from '@datr.tech/leith-common-schema-fields';
+import { commonSchemaOptions } from '@datr.tech/parcel-model-schemas-common-fields';
 
 export const processModelSchemaOptions = {
   ...commonSchemaOptions,
