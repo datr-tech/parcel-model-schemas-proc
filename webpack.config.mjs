@@ -22,9 +22,9 @@ export default {
       '@app-parcel-model-schemas-proc': path.resolve(__dirname, 'src/'),
     },
   },
-	target: "node",
+  target: 'node',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
 };

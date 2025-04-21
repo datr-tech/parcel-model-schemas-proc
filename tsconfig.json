@@ -1,1 +1,23 @@
-{"compilerOptions":{"allowJs":true,"allowSyntheticDefaultImports":true,"baseUrl":".","declaration":true,"esModuleInterop":true,"module":"es6","moduleResolution":"node","outDir":"./dist","target":"es2022","resolveJsonModule":true,"skipLibCheck":true,"sourceMap":true,"paths":{"@app-parcel-model-schemas-proc":["./src/*"],"@test-parcel-model-schemas-proc":["./test/*"]}},"exclude":[".git",".github",".husky",".jest","dist"],"files":["src/index.ts"],"include":["./src/**/*.ts"]}
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "es2022",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "paths": {
+      "@app-parcel-model-schemas-proc": ["./src/*"],
+      "@test-parcel-model-schemas-proc": ["./test/*"]
+    }
+  },
+  "exclude": [".git", ".github", ".husky", ".jest", "dist"],
+  "files": ["src/index.ts"],
+  "include": ["./src/**/*.ts"]
+}
