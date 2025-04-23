@@ -5,19 +5,18 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "module": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "target": "es2022",
+    "paths": {
+      "@app-pmsp2/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "paths": {
-      "@app-parcel-model-schemas-proc": ["./src/*"],
-      "@test-parcel-model-schemas-proc": ["./test/*"]
-    }
+    "target": "es5"
   },
-  "exclude": [".git", ".github", ".husky", ".jest", "dist"],
+  "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],
   "include": ["./src/**/*.ts"]
 }
