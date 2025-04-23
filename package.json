@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/parcel-model-schemas-proc",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": false,
   "description": "Parcel model schemas for proc",
   "keywords": [
